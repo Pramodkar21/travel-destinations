@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travel Destinations</title>
+  <title>Home</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -20,60 +20,55 @@
   </header>
 
   <section class="max-w-6xl mx-auto px-4 mt-20 text-center">
-    <h2 class="text-5xl font-bold mb-4">Travel Destinations</h2>
-    <p class="text-xl text-gray-600 mb-12">Explore beautiful places around the world</p>
+    <h2 class="text-5xl font-bold mb-4">Explore the World</h2>
+    <p class="text-xl text-gray-600 mb-12">Discover beautiful places and plan your next adventure.</p>
   </section>
 
-  <section class="max-w-6xl mx-auto px-4 mb-20">
-    <div class="flex justify-center gap-6">
+  <section class="max-w-6xl mx-auto px-4 mb-20 flex justify-center gap-6">
 
-      <!-- Paris Card -->
-      <div class="w-60 h-80 rounded-xl overflow-hidden relative">
-        <img src="images/Paris.png" class="w-full h-full object-cover" alt="Paris" />
-        <div class="absolute bottom-0 w-full h-36 bg-black/60 p-4">
-          <h3 class="text-white font-bold text-lg">Paris, France</h3>
-          <p class="text-white/80 text-sm">A timeless city known for art, culture, and iconic landmarks.</p>
-
-          <a href="destinations.html" class="mt-2 inline-block bg-blue-600 text-white px-3 py-1.5 rounded text-sm">
-            Learn More
-          </a>
+    <!-- Paris -->
+    <div class="w-60 h-80 rounded-xl overflow-hidden relative">
+      <img src="images/Paris.png" class="w-full h-full object-cover" alt="Paris" />
+      <div class="absolute bottom-0 w-full bg-black/60 p-4 flex flex-col">
+        <div class="text-white/80 text-sm leading-snug h-16">
+          <h3 class="text-white font-bold text-lg mb-1">Paris, France</h3>
+          <p>A timeless city known for art, culture, and iconic landmarks.</p>
         </div>
+        <a href="detail.html" class="mt-2 inline-block bg-blue-600 text-white px-3 py-1.5 rounded text-sm">
+          Learn More
+        </a>
       </div>
-
-      <!-- Bali Card -->
-      <div class="w-60 h-80 rounded-xl overflow-hidden relative">
-        <img src="images/Bali.png" class="w-full h-full object-cover" alt="Bali" />
-        <div class="absolute bottom-0 w-full h-36 bg-black/60 p-4">
-          <h3 class="text-white font-bold text-lg">Bali, Indonesia</h3>
-          <p class="text-white/80 text-sm">A peaceful island known for temples, beaches, and wellness retreats.</p>
-
-          <a href="destinations.html" class="mt-2 inline-block bg-blue-600 text-white px-3 py-1.5 rounded text-sm">
-            Learn More
-          </a>
-        </div>
-      </div>
-
-      <!-- California Card -->
-      <div class="w-60 h-80 rounded-xl overflow-hidden relative">
-        <img src="images/California.png" class="w-full h-full object-cover" alt="California" />
-        <div class="absolute bottom-0 w-full h-36 bg-black/60 p-4">
-          <h3 class="text-white font-bold text-lg">California, USA</h3>
-          <p class="text-white/80 text-sm">A diverse region offering beaches, cities, and endless sunshine.</p>
-
-          <a href="destinations.html" class="mt-2 inline-block bg-blue-600 text-white px-3 py-1.5 rounded text-sm">
-            Learn More
-          </a>
-        </div>
-      </div>
-
     </div>
-  </section>
 
-  <div class="text-center mb-24">
-    <a href="destinations.html" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium">
-      Explore Destinations
-    </a>
-  </div>
+    <!-- Bali -->
+    <div class="w-60 h-80 rounded-xl overflow-hidden relative">
+      <img src="images/Bali.png" class="w-full h-full object-cover" alt="Bali" />
+      <div class="absolute bottom-0 w-full bg-black/60 p-4 flex flex-col">
+        <div class="text-white/80 text-sm leading-snug h-16">
+          <h3 class="text-white font-bold text-lg mb-1">Bali, Indonesia</h3>
+          <p>A peaceful island known for temples, beaches, and wellness retreats.</p>
+        </div>
+        <a href="detail.html" class="mt-2 inline-block bg-blue-600 text-white px-3 py-1.5 rounded text-sm">
+          Learn More
+        </a>
+      </div>
+    </div>
+
+    <!-- California -->
+    <div class="w-60 h-80 rounded-xl overflow-hidden relative">
+      <img src="images/California.png" class="w-full h-full object-cover" alt="California" />
+      <div class="absolute bottom-0 w-full bg-black/60 p-4 flex flex-col">
+        <div class="text-white/80 text-sm leading-snug h-16">
+          <h3 class="text-white font-bold text-lg mb-1">California, USA</h3>
+          <p>A diverse region offering beaches, cities, and endless sunshine.</p>
+        </div>
+        <a href="detail.html" class="mt-2 inline-block bg-blue-600 text-white px-3 py-1.5 rounded text-sm">
+          Learn More
+        </a>
+      </div>
+    </div>
+
+  </section>
 
   <footer class="w-full bg-gray-900 py-6">
     <p class="text-center text-white text-sm">© 2024 Travel Destinations</p>
