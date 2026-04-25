@@ -1,9 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Travel Destinations</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <!-- placeholder -->
+
+<body class="font-sans text-gray-900">
+
+  <header class="w-full bg-white shadow-sm">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between py-4 px-4">
+      <h1 class="text-2xl font-bold">Travel Destinations</h1>
+      <div class="space-x-6 text-lg">
+        <a href="index.html" class="font-semibold text-blue-600">Home</a>
+        <a href="destinations.html" class="hover:text-blue-600">Destinations</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="max-w-6xl mx-auto px-4 mt-20 text-center">
+    <h2 class="text-5xl font-bold mb-4">Travel Destinations</h2>
+    <p class="text-xl text-gray-600 mb-12">Explore beautiful places around the world</p>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-4 mb-20">
+    <div class="flex justify-center gap-6">
+
+      <div class="w-60 h-80 rounded-xl overflow-hidden relative">
+        <img src="images/paris.jpg" class="w-full h-full object-cover" alt="Paris" />
+        <div class="absolute bottom-0 w-full h-28 bg-black/60 p-4">
+          <h3 class="text-white font-bold text-lg">Paris, France</h3>
+          <p class="text-white/80 text-sm">A timeless city known for art, culture, and iconic landmarks.</p>
+        </div>
+      </div>
+
+      <div class="w-60 h-80 rounded-xl overflow-hidden relative">
+        <img src="images/bali.jpg" class="w-full h-full object-cover" alt="Bali" />
+        <div class="absolute bottom-0 w-full h-28 bg-black/60 p-4">
+          <h3 class="text-white font-bold text-lg">Bali, Indonesia</h3>
+          <p class="text-white/80 text-sm">A peaceful island known for temples, beaches, and nature.</p>
+        </div>
+      </div>
+
+      <div class="w-60 h-80 rounded-xl overflow-hidden relative">
+        <img src="images/california.jpg" class="w-full h-full object-cover" alt="California" />
+        <div class="absolute bottom-0 w-full h-28 bg-black/60 p-4">
+          <h3 class="text-white font-bold text-lg">California, USA</h3>
+          <p class="text-white/80 text-sm">A diverse state with coastlines, cities, and adventure.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="text-center mb-24">
+    <a href="destinations.html" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium">
+      Explore Destinations
+    </a>
+  </div>
+
+  <footer class="w-full bg-gray-900 py-6">
+    <p class="text-center text-white text-sm">© 2024 Travel Destinations</p>
+  </footer>
+
 </body>
 </html>
+
